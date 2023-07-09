@@ -1,0 +1,19 @@
+#include <main.h>
+
+void main()
+{
+
+   set_tris_b(0x00);
+   output_b(0x00);
+   
+   output_high(pin_B0);
+   output_high(pin_B5);
+   
+   while(TRUE)
+   {
+
+      delay_ms(5000);
+      
+   }
+
+}

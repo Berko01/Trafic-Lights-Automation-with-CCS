@@ -1,0 +1,47 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+009-00A @READ_PROGRAM_MEMORY8.P1
+00C     @SCRATCH
+00D     @SCRATCH
+00D     _RETURN_
+00E     @SCRATCH
+00F     @SCRATCH
+011     main.@SCRATCH1
+012     @delay_ms1.P1
+
+ROM Allocation:
+000004  @delay_ms1
+000018  @cinit1
+000018  main
+000018  @cinit2
+
+Project Directory:
+    C:\Users\berki\Desktop\Mikro Projeler\Trafic Lights\
+
+Project Files:
+    main.c                                                  [09-Tem-23 13:01  CRC=4CD49C91]
+    main.h                                                  [09-Tem-23 12:42  CRC=D872A938]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F84.h [21-Haz-13 16:04  CRC=E10E5453]
+
+Source signature=E763EE6F
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F84
+    Pointer Size:   8
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
